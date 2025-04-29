@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-BOT_TOKEN = 7145441900:AAFwUYzYpoVvfkpJRMRSqk2lbZuAJw-Wdpc
-CHAT_ID = 6738723860
+BOT_TOKEN = '7145441900:AAFwUYzYpoVvfkpJRMRSqk2lbZuAJw-Wdpc'
+CHAT_ID = '6738723860'
 
 @app.route('/')
 def index():
